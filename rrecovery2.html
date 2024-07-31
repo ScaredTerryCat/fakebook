@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+FakeBook login Page
+</title>
+<style>
+body{background-color:lightgreen;
+margin:0px;
+}
+#banner{
+background-color:black;
+}
+div{background-color:grey;}
+h1{
+border:3px solid white;
+background-color:lightgreen;
+text-align:center;
+display:inline-block;
+margin-left:35%;
+border-radius:5px;
+padding:1%;
+}
+button{padding:1%;
+padding-right:2%;
+padding-left:2%;
+}
+#back{
+margin-left:5%;
+}
+form{
+border:3px solid yellow;
+background-color:green;
+margin-left:25%;
+margin-right:25%;
+margin-top:3%;
+margin-bottom:3%;
+border-radius:10px;
+}
+input{margin-left:35%;
+margin-top:3%;
+margin-bottom:2%;
+padding:2%;
+border:2px solid black;
+border-radius:20px;
+}
+#submit{margin-left:65%;padding:2%;padding-right:3%;padding-left:3%;border:2px solid black;background-color:yellow;;
+border-radius:0px;
+}
+#link{margin-left:10%;margin-right:10%;color:lightblue;}
+#question{margin-bottom:6%;margin-top:6%;}
+</style>
+</head>
+<body>
+<div id="banner"><br><br><h1>Let's change your password :)</h1><br></div>
+<div>
+<br>
+<a href="login.html" id="back"><button>Go back</button></a><br><br></div>
+<form method="post" action="recovery3.php">
+<br>
+<!--here comes the question and the answer-->
+<input id="newPassword1" name="newPassword1" placeholder="Enter new password"></input>
+<br>
+<input id="newPassword2" name="newPassword2" placeholder="Confirm new password"></input>
+<input type="submit" name="submit" id="submit"></input>
+<h3 style="text-align:center;color:yellow">!!!Entered passwords are not the same !!!</h3>
+</form>
+</body>
+</html>

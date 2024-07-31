@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{background-color:lightgreen;
+margin:0px;
+}
+#banner{
+background-color:black;
+}
+div{background-color:grey;}
+h1{
+border:3px solid white;
+background-color:lightgreen;
+text-align:center;
+display:inline-block;
+margin-left:35%;
+border-radius:5px;
+padding:1%;
+}
+button{padding:1%;
+padding-right:2%;
+padding-left:2%;
+}
+#back{
+margin-left:5%;
+}
+form{
+border:3px solid yellow;
+background-color:green;
+margin-left:25%;
+margin-right:25%;
+margin-top:3%;
+border-radius:10px;
+}
+input{margin-top:3%;
+padding-left:2%;
+padding-right:2%;
+margin-left:35%;
+border:2px solid black;
+}
+#submit{margin-bottom:3%;
+background-color:yellow;
+margin-left:65%;
+padding-top:2%;
+padding-bottom:2%;
+padding-right:3%;
+padding-left:3%;
+}
+lighter{color:lightblue;}
+#security_answer{margin-bottom:3%;}
+</style>
+<title>FakeBook register page</title>
+</head>
+<body>
+<div id="banner"><br><br><h1>FakeBook Register Page</h1><br></div>
+<div>
+<br>
+<a href="index.php" id="back"><button>Go back</button></a><br><br></div>
+<form method="post" action="register.php">
+<br>
+<input id="username" name="username" placeholder="Enter here new username" required></input>
+<br>
+<input id="password" name="password" placeholder="Enter here new password" required></input>
+<br>
+<input id="password_again" name="password_again" placeholder="Reenter here new password" required></input>
+<br>
+<input id="security_question" name="security_question" placeholder="Enter here security question" required><lighter>If you forget your password</lighter></input>
+<br>
+<input id="security_answer" name="security_answer" placeholder="Enter here security answer" required><lighter>  Know this to reset it</lighter></input>
+<br>
+<input type="submit" id="submit" name="Submit"></input>
+<br>
+</form>
+</body>
+</html>
